@@ -8,7 +8,7 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: tic-tac-toe
+      app: tic-tac-toe 
   template:
     metadata:
       labels:
